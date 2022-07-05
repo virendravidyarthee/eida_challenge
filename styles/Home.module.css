@@ -114,3 +114,54 @@
     flex-direction: column;
   }
 }
+
+.offWhiteBackground {
+  background: #f5f5f5;
+}
+
+.settingsDiv {
+  display: flex;
+  justify-content: right;
+}
+.logoDiv {
+  margin: 10px 5%;
+}
+.locationDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 10px;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafbfa;
+  box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.36);
+  -webkit-box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.36);
+}
+.grid {
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  justify-content: space-around;
+}
+.gridItem {
+  height: 125px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #fafbfa;
+  box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.36);
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.36);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.36);
+}
+.greenText {
+  font-size: large;
+  font-weight: 600;
+  color: green;
+}
+.count {
+  text-align: right;
+}
+.consumptionGraphDiv{
+  margin: 10px;
+}
