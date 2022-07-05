@@ -88,35 +88,35 @@ const Home: NextPage = (props: {
               </Link>
             </Grid.Col>
             <Grid.Col span={1}>
-              <Card shadow={"md"} radius={'md'}>
+              <Card radius={'md'}>
                 <Text weight={700}>Total production week kwh</Text>
                 <Space h={'md'} />
                 <Text weight={400}>NA kwh</Text>
               </Card>
             </Grid.Col>
             <Grid.Col span={1}>
-              <Card shadow={"md"} radius={'md'}>
+              <Card radius={'md'}>
                 <Text weight={700}>Total production month kwh</Text>
                 <Space h={'md'} />
                 <Text weight={400}>{latestRecord.monthly_prod_KWH ?? "NA"} kwh</Text>
               </Card>
             </Grid.Col>
             <Grid.Col span={1}>
-              <Card shadow={"md"} radius={'md'}>
+              <Card radius={'md'}>
                 <Text weight={700}>Total production year kwh</Text>
                 <Space h={'md'} />
                 <Text weight={400}>{latestRecord.yearly_prod_KWH ?? "NA"} kwh</Text>
               </Card>
             </Grid.Col>
             <Grid.Col span={1}>
-              <Card shadow={"md"} radius={'md'}>
+              <Card radius={'md'}>
                 <Text weight={700}>Forecasted consumption kwh</Text>
                 <Space h={'md'} />
                 <Text weight={400}>NA kwh</Text>
               </Card>
             </Grid.Col>
             <Grid.Col span={1}>
-              <Card shadow={"md"} radius={'md'}>
+              <Card radius={'md'}>
                 <Text weight={700}>Forecasted production kwh</Text>
                 <Space h={'md'} />
                 <Text weight={400}>NA kwh</Text>
